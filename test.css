@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow-x: hidden;
+}
 .one{
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to left top,orange 55%,white 25% );
+    background-image: linear-gradient(to left top,orange 55%, white 25% );
 
 }
 .navbar{
@@ -39,4 +42,27 @@
     text-decoration: none;
     font-size: 25px;
     font-weight: bolder;
+}
+.navlink #navl{
+    margin: 50px;
+    padding: 20px;
+    color: black;
+    text-decoration: underline coral 8px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.one .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.one .container .text{
+    margin: 100px;
+}
+.one .container .text h1{
+    font-size: 50px;
+    font-weight: 40px;
+}
+.one .container .text p{
+    font-size: 20px;
 }
