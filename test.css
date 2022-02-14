@@ -219,5 +219,58 @@ body{
     margin-top: 200px;
     font-size: 40px;
 }
+.six {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.six .logo-2{
+    margin-top: 30px;
+    display: flex;
+
+}
+.six .logo-2 h2{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 40px;
+}
+.six .logo-2 h2 span{
+    color: orange;
+} 
+.six .site{
+    margin-top: 40px;
+}
+.six .site h2{
+    font-size: 30px;
+}
+.six .site ul{
+    text-align: center;
+    font-size: 20px;
+}
+.six .inp{
+    margin-top: 40px;
+
+}
+.site .inp h2{
+    font-size: 30px;
+}
+.six .inp .info{
+    height: 2vh;
+    width: 8vw;
+    padding: 12px;
+    border-radius: 5px;
+}
+.six .inp .info-2{
+    color: white;
+    background-color: orange;
+    height: 2vh;
+    width: 8vw;
+    padding: 12px;
+    border-radius: 5px;
+
+}
 
 
