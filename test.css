@@ -210,8 +210,14 @@ body{
 }
 .five{
     background-color: orange;
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.five .text-3{
+    margin-top: 200px;
+    font-size: 40px;
 }
 
 
