@@ -126,3 +126,59 @@ body{
 .three h2 span{
     color: orange;
 }
+.three .container-2{
+    display: flex;
+    justify-content: space-around;
+}
+.three .container-2 .box-4{
+    border: solid black 1px;
+    height: 400px;
+    width: 350px;
+    border-radius: 30px;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 10px, 10px;
+}
+.three .container-2 .box-4 img{
+    margin-top: 10px;
+    
+}
+.three .container-2 .box-4 h1{
+    color: brown;
+    margin: 15px;
+}
+.three .container-2 .box-4 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.three .container-2 .box-4 .icon{
+    margin-top: 40px;
+}
+
+.three .container-3{
+    display: flex;
+    justify-content: space-around;
+}
+.three .container-3 .box-5{
+    border: solid black 1px;
+    height: 400px;
+    width: 350px;
+    border-radius: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+.three .container-3 .box-5 img{
+    margin-top: 10px;
+    
+}
+.three .container-3 .box-5 h1{
+    color: brown;
+    margin: 15px;
+}
+.three .container-3 .box-5 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.three .container-3 .box-5 .icon{
+    margin: 40px;
+}
+
+
